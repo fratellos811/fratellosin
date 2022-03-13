@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+display: flex;
+justify-content: left;
+align-items: left;
+position: sticky;
+top: 0;
+cursor: pointer;
+border-bottom: 2px solid white;
+}
+
+#logo{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    justify-items: centre;
+    align-items: center;
+    padding-top: 0.5%;
+    padding-bottom: 30px;
+
+   
+}
+
+#logo img{
+    width: 4cm;
+    height: 4cm;
+    border-radius: 90%;
+    padding:1em;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: solid lawngreen;
+}
+
+.logo2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 10px;
+    background-color: black;
+    
+  
+}
+
+
+
+.navlist{
+width: 70%;
+background-color: rgb(0, 0, 0);
+display: flex;
+align-items: center;
+justify-content: left;
+padding: 0.5rem;
+
+}
+
+.navlist li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.navlist li a{
+    text-decoration: none;
+color: white;
+font-size: 18px;
+border-color:2px white transparent;
+border-radius: 8px;
+padding: 5px;
+}
+
+a.active, a:hover{
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+.rightNav{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    text-align: right;
+   
+}
+
+#search{
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-top: 9px;
+    justify-content: center;
+    
+}
+
+.btn{
+    margin-right: 15px;
+    color: aliceblue;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.btn-sm{
+    padding: 3px 3px;
+  
+
+}
+
+.btn-dark{
+    color: white;
+    border: 2px solid lawngreen;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 16px;
+    justify-content: center;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+   
+ 
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    margin-top: 70px;
+    margin-left:70px;
+    margin-right:70px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+   color: azure;
+   margin-left: 70px;
+   margin-right: 70px;
+   padding: 20px;
+}
+
+
+.firstsection{
+ font-family: cursive;
+}
+
+.secondsection{
+    font-family: cursive;
+}
+
+.t{
+    padding-left: 1em;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: rgb(0, 0, 0);
+   color: lawngreen;
+   margin-left: 70px;
+   margin-right: 70px;
+   padding-top: 10px;
+   font-size: larger;
+   
+}
+
+.contact{
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+
+}
+
+.contact2{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 500px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   
+}
+
+.form{
+    margin: auto;
+    max-width: 500px;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form input{
+    margin: 12px;
+    width: 93%;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    color: rgb(0, 138, 0);
+    padding: 5px 3px;
+}
+
+#description{
+    height: 100px;
+    align-items: initial;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    width: 93%;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    color: rgb(0, 138, 0);
+    padding: 5px 3px;
+}
+
+footer{
+    position: end;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    color: rgb(87, 170, 3);
+    background-color: black;
+    vertical-align: middle;
+
+}
+
+.burger{
+    display: none;
+position: absolute;
+cursor: pointer;
+right: 3%;
+top: 15px; 
+}
+
+
+.line{
+    width: 33px;
+    background-color: lawngreen;
+    height: 4px;
+    margin: 5px 3px;
+}
+.socialicons{
+    margin:auto;        
+    display: flex;
+    background-color: rgb(49, 179, 49);
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.socialicons ul{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 1cm;
+    width: 1cm;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+ #terminal1{
+    text-align: left;
+    padding-bottom: 34px;
+    padding-left: 10%;
+    
+} 
+#second_terminal{
+    text-align: center;
+    word-wrap: normal;
+}
+
+
+@media only screen and (max-width: 1141px){
+    .navlist{
+        flex-direction: column;
+        background-color: transparent;
+        padding: 1em;
+    }
+    .rightNav{
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar{
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .v-list li{
+        padding:10px;
+    }
+    
+
+    #search{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+        cursor: pointer;
+       
+
+    }
+
+
+    .h-nav{
+        display: none;
+         height: 250px;  /*increased from 60*/
+    }
+
+    .vlist{
+      display: flex;
+
+      
+
+    }
+
+    .root{
+margin-left: 10px;
+margin-right: 10px;
+    }
+
+    .container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .t{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact{
+        margin-left: 10px;
+margin-right: 10px;
+    }
+
+    
+}
+
+
+
