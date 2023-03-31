@@ -1,97 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <title>Fratellos811  technically possible! </title>
-    <meta name="title" content="Cybersecurity ">
-    <meta name="description" content=content="width=device-width, initial-scale=1.0" "Learn Cybersecurity, linux , networking with us using simplest form of example">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
 
-   
-  
-    
-    
-    <link rel="icon" href="/img/logo.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css" >
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <title>Fratellos811</title>
 </head>
+<body onload="typeWriter()">
+        
+<!-- Navigation Bar-->    
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark1">
+    <a class="navbar-brand" href="www.fratellos811.in">Fratellos811</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/aboutus/aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tutorials
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item disabled" href="#">Video Tutorials</a>
+            <a class="dropdown-item" href="http://blog.fratellos811.in/">Blogs</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://www.instagram.com/fratellos811_/">Ask Hacker!</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Swag Coming soon!</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+    
+<!--Background Part _body-->
+<div id="container_vid">
+    <video autoplay muted loop id="videobcg">
+        <source src="/assets/bg-vid.mp4" type="video/mp4">
+      </video>
 
-<body style="background-image: url(bg.png)">
-    <link rel="stylesheet" href="css/style.css">
-    <DIV id="logo"><img src="img/logo.jpg" alt="logo"></DIV>
-   
-    <nav class="navbar background ">
-        <ul class="navlist v-list h-nav ">
-            <label class="v-list logo2">Fratell-OS</label>
-            <li><a class="active" href="#home">HOME</a></li>
-            <li><a href="/about us/index.html">ABOUT US</a></li>
-            <li><a href="http://blog.fratellos811.in/">BLOG</a></li>
-            <li><a href="#contact2">CONTACT</a></li>
-            <li><a href="#feedback">FEEDBACK</a></li>
-        </ul>
-        <div class="rightNav v-list">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
-        </div>
-
-        <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-    </nav>
-
-
-
-    <section class="firstsection">
-        <div class="root">InTr0</div>
-        <div class="t"><p>root@fratellos:~$</p></div>
-        <div class="container" id="terminal1" onmouseover="typeWriter()">
-            
-
-
-        </div>
-    </section>
-
-    <section class="secondsection">
-        <div class="root">Readme...</div>
-        <div class="t">root@fratellos:~$</div>
-        <div class="container" id="second_terminal">
-            <p>Here you will be recieving regular content on how to start with cybersecurity.
-                <br>Make sure to remain connected with us. Here we always make sure for you<br>
-                to get all of the concept cleared with easy of touchy and funny examples.
-             </p>
-        </div>
-    </section>
-
-    <section class="contact">
-        <h2 id="contact2" class="contact2">Contact Us</h2>
-        <div class="socialicons">
-            <ul><a href="https://www.instagram.com/fratellos811/"><img src="img/instagram.svg" alt=""></a></ul>
-            <ul><a href=""><img src="img/facebook.svg" alt=""></a></ul>
-            <ul><a href="https://github.com/fratellos811"><img src="img/github.svg" alt=""></a></ul>
-            <ul><a href="https://youtube.com/channel/UCyEQBpGxrDIVhWEAxdZtdxA"><img src="img/youtube.svg" alt=""></a></ul>
-            <ul><a href="https://www.quora.com/profile/Fratellos-811"><img src="img/quora.svg" alt=""></a></ul>
-
-        </div>
-        </div>
-
-    </section>
+      
+    </div>
+    <div>
 
 
-    <footer>
-        <p class="footer">
-            Copyrigt &copy; 2022 - @fratellos - All rights are reserved
-        </p>
+      <section class="firstsection">
+           <div class="container" id="terminal1" >
+               </div>
+      </section>
+     
+</div>
 
-    </footer>
-    <script src="js/resp.js">
 
-    </script>
+  <script src="js/resp.js"></script>
+
+  <footer class="bg-dark1 text-center text-lg-start ">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      Copyrigt © 2022 - @fratellos811 - All rights are reserved
+    </div>
+    <!-- Copyright -->
+  </footer>
+
 </body>
-
-
 </html>
